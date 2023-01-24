@@ -14,6 +14,9 @@ module.exports = {
         scoreText: 'hsl(229, 64%, 46%)',
         headerOutline: 'hsl(217, 16%, 45%)',
       },
+      backgroundImage: {
+        triangle: "url('./src/assets/bg-triangle.svg')",
+      },
     },
   },
   plugins: [],
