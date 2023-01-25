@@ -4,7 +4,7 @@ import scissors from '../assets/icon-scissors.svg';
 
 const Selection = () => {
   return (
-    <div className="bg-triangle w-4/5 bg-no-repeat bg-auto bg-center flex-col h-auto px-2 md:w-2/5">
+    <div className="bg-triangle w-4/5 bg-no-repeat bg-auto bg-center flex-col h-auto px-2 md:w-2/5 xl:w-1/5">
       <div className="top-row flex items-center justify-between">
         <img
           src={paper}

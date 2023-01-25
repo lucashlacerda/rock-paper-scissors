@@ -4,7 +4,7 @@ type ScoreBoardProps = {
 
 const ScoreBoard = (props: ScoreBoardProps) => {
   return (
-    <div className="flex justify-between mt-8 w-4/5 items-center px-5 py-3 md:w-3/5 md:h-32 border-solid border-2 rounded-md border-headerOutline">
+    <div className="flex justify-between mt-8 w-4/5 items-center px-5 py-3 md:w-3/5 md:h-32 xl:w-2/5 border-solid border-2 rounded-md border-headerOutline">
       <h3 className="text-2xl leading-5 md:text-3xl text-white font-semibold md:leading-8">
         Rock
         <br />
