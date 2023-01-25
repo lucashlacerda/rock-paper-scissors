@@ -4,23 +4,23 @@ import scissors from '../assets/icon-scissors.svg';
 
 const Selection = () => {
   return (
-    <div className="bg-triangle w-4/5 bg-no-repeat bg-auto bg-center flex-col h-auto px-2 md:w-2/5 xl:w-1/5">
+    <div className="bg-triangle mt-20 mb-20 md:mb-0 w-4/5 bg-no-repeat bg-auto bg-center flex-col h-auto px-2 md:w-2/5 xl:w-1/5">
       <div className="top-row flex items-center justify-between">
         <img
           src={paper}
-          className="bg-white p-3 border-[12px] rounded-full border-blue-500 md:p-6 md:border-[16px]"
+          className="bg-white p-3 border-[12px] rounded-full border-blue-500 md:p-6 md:border-[16px] cursor-pointer"
           alt="Paper"
         />
         <img
           src={scissors}
-          className="bg-white p-3 border-[12px]  rounded-full md:p-6 md:border-[16px] border-yellow-500"
+          className="bg-white p-3 border-[12px]  rounded-full md:p-6 md:border-[16px] border-yellow-500 cursor-pointer"
           alt="Scissors"
         />
       </div>
       <div className=" bottom-row  flex items-center justify-center mt-44">
         <img
           src={rock}
-          className="bg-white p-3 border-[12px]  rounded-full md:p-6 md:border-[16px] border-red-500"
+          className="bg-white p-3 border-[12px]  rounded-full md:p-6 md:border-[16px] border-red-500 cursor-pointer"
           alt="Rock"
         />
       </div>
